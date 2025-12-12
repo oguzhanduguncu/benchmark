@@ -1,10 +1,11 @@
-Freq    Period(ms)    p99(us)     p999(us)      Max(us)     
-------------------------------------------------------------
-250     4             836         1562          55012  
-500     2             433         815           3594        
-1000    1             300         407           1964     
-2000    0.5           246         468           1175        
-4000    0.25          179         435           2584        
+| Freq (Hz) | Period (ms) | p99 (µs) | p999 (µs) | Max (µs) |
+|-----------|-------------|----------|-----------|----------|
+| 250       | 4.0         | 836      | 1562      | 55012    |
+| 500       | 2.0         | 433      | 815       | 3594     |
+| 1000      | 1.0         | 300      | 407       | 1964     |
+| 2000      | 0.5         | 246      | 468       | 1175     |
+| 4000      | 0.25        | 179      | 435       | 2584     |
+
 
 
 p99 ve p999, bir sistemin ortalama değil, en kötü anlara ne kadar dayanıklı olduğunu gösterir. p99, ölçümlerin %99’unun altında kaldığı gecikmeyi; p999 ise her 1000 ölçümde bir yaşanan çok nadir ama kritik gecikmeyi temsil eder. 
